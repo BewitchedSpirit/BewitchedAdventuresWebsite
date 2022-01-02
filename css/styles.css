@@ -1,0 +1,148 @@
+body {
+    background: black;
+    color: white;
+    font-family: "courier", "fantasy";
+    margin: 0 auto;
+
+    }
+.page {
+    background: black url(../images/heartskylarge.jpg) no-repeat left top;
+    width: auto;
+    height: auto;
+    padding: 15% 20% 15% 20%;
+}
+header {
+    background: black;
+    color: mediumpurple;
+    font-family: "courier", fantasy;
+    margin: 0px 25px;
+}
+.body {
+    background: black;
+    color: lightsteelblue;
+    margin: 20px 25px;
+    -webkit-box-shadow: 7px 7px 17px 9px rgba(255,24,246,0.45), -7px -7px 17px 10px rgba(2,106,100,0.45);
+    box-shadow: 7px 7px 17px 9px rgba(255,24,246,0.45), -7px -7px 17px 10px rgba(2,106,100,0.45);
+}
+
+/* Banner Image or Logo start. */
+
+#logo {
+   width:1080px;
+   height:450px;
+   max-height:450px;
+   max-width:1080px;
+   background:#000000 url(../images/babanner.jpg) no-repeat left top;
+    -webkit-box-shadow: 7px 7px 17px 9px rgba(255,24,246,0.45), -7px -7px 17px 10px rgba(2,106,100,0.45);
+    box-shadow: 7px 7px 17px 9px rgba(255,24,246,0.45), -7px -7px 17px 10px rgba(2,106,100,0.45);
+   margin: 0px 0px;
+
+}
+
+#logo span {
+    display: none;
+}
+
+/* Navigation styles go here. */
+nav {
+    background: transparent;
+    margin: 0px 25px;
+}
+/* End Navigation. */
+/* Footer styles go here. */
+
+footer {
+    background: black;
+    margin: 0px 25px;
+}
+.Row {
+    width: 40%;
+    float: left;
+    padding: 10px;
+    border: dashed;
+}
+.Digital {
+    width: 40%;
+    height: 175px;
+    float: left;
+    padding: 10px;
+    background-color: black;
+    color: lightsteelblue;
+}
+.Physical {
+    width: 40%;
+    height: 175px;
+    float: left;
+    padding: 10px;
+    background-color: black;
+    color: lightsteelblue;
+}
+.Contact {
+    width: 20%;
+    height: 175px;
+    float: left;
+    padding: 10px;
+    background-color: black;
+    color: lightsteelblue;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 30px 0px;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1.5em;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: deeppink;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #111;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: mediumpurple;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+/* End Footer */
+/*
+Resources Start...
+- Box Shadow Creator: https://html-css-js.com/css/generator/box-shadow/
+*/
