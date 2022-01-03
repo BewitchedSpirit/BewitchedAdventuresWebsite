@@ -2,12 +2,11 @@ body {
     background: black;
     color: white;
     font-family: "courier", "fantasy";
-    margin: 0 auto;
 
     }
 
 .page {
-    background: black url(../Images/space.jpg);
+    background: black url(../images/space.jpg);
     width: auto;
     height: auto;
     padding: 15% 20% 15% 20%;
@@ -34,7 +33,7 @@ header {
    height:450px;
    max-height:450px;
    max-width:1080px;
-   background:#000000 url(../Images/babanner.jpg) no-repeat left top;
+   background:#000000 url(../images/babanner.jpg) no-repeat left top;
     -webkit-box-shadow: 7px 7px 17px 9px rgba(255,24,246,0.45), -7px -7px 17px 10px rgba(2,106,100,0.45);
     box-shadow: 7px 7px 17px 9px rgba(255,24,246,0.45), -7px -7px 17px 10px rgba(2,106,100,0.45);
 
@@ -105,7 +104,7 @@ li.dropdown {
 footer {
     background: black;
     width: 94%;
-    height: 200px;
+    height: 150px;
     -webkit-box-shadow: 7px 7px 17px 9px rgba(255,24,246,0.45), -7px -7px 17px 10px rgba(2,106,100,0.45);
     box-shadow: 7px 7px 17px 9px rgba(255,24,246,0.45), -7px -7px 17px 10px rgba(2,106,100,0.45);
 }
