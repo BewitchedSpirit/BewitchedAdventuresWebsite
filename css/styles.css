@@ -11,6 +11,18 @@ body {
     height: auto;
     padding: 15% 20% 15% 20%;
 }
+a {
+  color: mediumpurple;
+}
+hr {
+  width: 100%;
+  align: center;
+  height: 6px;
+  border: none;
+  -webkit-box-shadow: 7px 7px 17px 9px rgba(255,24,246,0.45), -7px -7px 17px 10px rgba(2,106,100,0.45);
+  box-shadow: 7px 7px 17px 9px rgba(255,24,246,0.45), -7px -7px 17px 10px rgba(2,106,100,0.45);
+
+}
 /* BKG Image from: https://pixabay.com/illustrations/seamless-tile-background-abstract-1315326/ */
 
 header {
